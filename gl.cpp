@@ -2,14 +2,12 @@
 #include <utility>
 #include <algorithm>
 
-#ifdef _TINSPIRE
-#include <libndls.h>
-#else
-#include <SDL/SDL.h>
+#define SDL_MAIN_HANDLED
+#include <SDL.h>
 #include <assert.h>
 #include <signal.h>
 static SDL_Surface *scr;
-#endif
+
 
 #include "gl.h"
 #include "fastmath.h"
