@@ -1,5 +1,5 @@
-# nGL
-3D graphics library for Ndless (and possibly other systems).
+# nGL-PSP
+3D graphics library for Ndless on the PSP.
 It's not a complete 3D engine, so there's no collision detection, animation etc.
 
 Features
