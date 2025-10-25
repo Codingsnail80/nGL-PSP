@@ -5,6 +5,8 @@
 #error You need to use a C++ compiler to use nGL!
 #endif
 
+#define SDL_MAIN_HANDLED
+
 //nGL version 0.8
 #include "fix.h"
 
