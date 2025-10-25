@@ -1,6 +1,11 @@
 #ifndef TEXTURETOOLS_H
 #define TEXTURETOOLS_H
 
+#include <pspsdk.h>
+#include <pspkernel.h>
+#include <pspdebug.h>
+#include <pspdisplay.h>
+
 #include "gl.h"
 
 //Throws if allocation failed
